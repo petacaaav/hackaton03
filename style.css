@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #722AE9;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+}
+
+.image-container img.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-idat {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 80px;
+    transform: translateY(-50%);
+}
+
+.form-container {
+    width: 50%;
+    background-color: #722AE9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo-eva {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+a {
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
